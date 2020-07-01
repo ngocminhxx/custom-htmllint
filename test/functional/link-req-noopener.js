@@ -29,10 +29,5 @@ module.exports = [
         input: '<a href="https://site.com" target="_blank" rel=noreferrer>',
         opts: {'link-req-noopener': true},
         output: 0
-    }, {
-        desc: 'should pass a link with rel="noopener noreferrer"',
-        input: '<a href="https://site.com" target="_blank" rel="noopener noreferrer">',
-        opts: {'link-req-noopener': true},
-        output: 0
     }
 ];
